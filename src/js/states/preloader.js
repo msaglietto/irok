@@ -20,7 +20,7 @@ Preloader.prototype = {
     this.load.image('sidewalk', 'assets/sidewalk.png');
     this.load.image('foreground', 'assets/foreground.png');
 
-    this.load.spritesheet('dude', 'assets/dude.png', 32, 48);
+    this.load.spritesheet('irok', 'assets/dude.png', 32, 48);
 
     //this.load.audio('gameMusic', ['assets/audio/music.mp3', 'assets/audio/music.ogg']);
     //this.load.audio('jump', 'assets/audio/jump.wav');
