@@ -5,8 +5,8 @@ var Boot = _.noop;
 Boot.prototype = {
 
   preload: function() {
-    this.load.image('logo', 'assets/logo.png');
-    this.load.image('preloader', 'assets/preloader.gif');
+    this.load.image('logo', 'assets/images/logo.png');
+    this.load.image('preloader', 'assets/images/preloader.gif');
   },
 
   create: function() {

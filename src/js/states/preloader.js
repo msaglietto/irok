@@ -16,11 +16,13 @@ Preloader.prototype = {
 
     this.load.setPreloadSprite(this.preload);
 
-    this.load.image('background', 'assets/cityBackground.png');
-    this.load.image('sidewalk', 'assets/sidewalk.png');
-    this.load.image('foreground', 'assets/foreground.png');
+    this.load.image('background', 'assets/images/cityBackground.png');
+    this.load.image('sidewalk', 'assets/images/sidewalk.png');
+    this.load.image('foreground', 'assets/images/foreground.png');
+    this.load.image('toilet', 'assets/images/toilet.png');
+    this.load.image('coin', 'assets/images/coin.png');
 
-    this.load.spritesheet('irok', 'assets/dude.png', 32, 48);
+    this.load.spritesheet('irok', 'assets/images/dude.png', 32, 48);
 
     //this.load.audio('gameMusic', ['assets/audio/music.mp3', 'assets/audio/music.ogg']);
     //this.load.audio('jump', 'assets/audio/jump.wav');
