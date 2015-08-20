@@ -1,8 +1,0 @@
-{
-  "name": "irok",
-  "version": "0.0.1",
-  "dependencies": {
-    "phaser-official": "~2.4",
-    "lodash": "~3.8.0"
-  }
-}
